@@ -1,0 +1,31 @@
+footer#footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+
+    &::before,
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    p {
+      float: left;
+      margin: 0 10px;
+      font-size: 1.125em;
+      line-height: 1.4em;
+      max-width: 640px;
+      text-align: start;
+    }
+
+    img {
+      float: right;
+      margin: 0 10px;
+      display: block;
+    }
+  }
+}
