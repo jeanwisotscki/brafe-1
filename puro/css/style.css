@@ -399,6 +399,33 @@ section#newsletter .news-container form button {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  section#newsletter .news-container {
+    max-width: 720px;
+  }
+  section#newsletter .news-container .news-info {
+    width: 340px;
+  }
+  section#newsletter .news-container form {
+    width: 340px;
+  }
+  section#newsletter .news-container form input {
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  section#newsletter .news-container {
+    max-width: 300px;
+  }
+  section#newsletter .news-container .news-info,
+  section#newsletter .news-container form,
+  section#newsletter .news-container input {
+    width: 300px;
+    margin: 10px 0 0 0;
+  }
+}
+
 footer#footer {
   background: #d6d3c8;
   padding: 40px 0;
