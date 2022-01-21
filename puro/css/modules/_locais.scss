@@ -51,3 +51,33 @@ section#locais {
     }
   }
 }
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  section#locais {
+    max-width: 720px;
+
+    .locais-item {
+      & > div {
+        width: 340px;
+      }
+
+      & > img {
+        width: 340px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  section#locais {
+    width: 300px;
+
+    .locais-item {
+      & > div,
+      & > img {
+        width: 300px;
+        margin: 0;
+      }
+    }
+  }
+}
