@@ -39,8 +39,16 @@ header {
 }
 
 @media only screen and (max-width: 739px) {
-  nav {
-    float: none;
-    clear: both;
+  header {
+    .menu-container {
+      text-align: center;
+
+      .menu-logo,
+      nav {
+        float: none;
+        clear: both;
+        margin: 5px 0;
+      }
+    }
   }
 }

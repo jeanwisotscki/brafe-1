@@ -50,9 +50,14 @@ header .menu-container nav li a {
 }
 
 @media only screen and (max-width: 739px) {
-  nav {
+  header .menu-container {
+    text-align: center;
+  }
+  header .menu-container .menu-logo,
+  header .menu-container nav {
     float: none;
     clear: both;
+    margin: 5px 0;
   }
 }
 
@@ -454,5 +459,28 @@ footer#footer .footer-container img {
   float: right;
   margin: 0 10px;
   display: block;
+}
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  footer#footer .footer-container {
+    max-width: 720px;
+  }
+  footer#footer .footer-container p {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  footer#footer .footer-container {
+    max-width: 300px;
+  }
+  footer#footer .footer-container p {
+    float: none;
+    margin-bottom: 20px;
+  }
+  footer#footer .footer-container img {
+    float: none;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
