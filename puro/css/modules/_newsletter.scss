@@ -58,3 +58,13 @@ section#newsletter {
     }
   }
 }
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  section#newsletter {
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  section#newsletter {
+  }
+}
