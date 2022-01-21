@@ -54,3 +54,34 @@ section#sobre {
     }
   }
 }
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  section#sobre {
+    .sobre-container {
+      max-width: 720px;
+
+      .sobre-item {
+        max-width: 340px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  section#sobre {
+    padding: 40px 0;
+
+    h2 {
+      margin-bottom: 40px;
+    }
+
+    .sobre-container {
+      max-width: 300px;
+
+      .sobre-item {
+        width: 300px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

@@ -37,3 +37,10 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: 739px) {
+  nav {
+    float: none;
+    clear: both;
+  }
+}

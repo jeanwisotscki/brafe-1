@@ -49,6 +49,13 @@ header .menu-container nav li a {
   font-size: 1.125em;
 }
 
+@media only screen and (max-width: 739px) {
+  nav {
+    float: none;
+    clear: both;
+  }
+}
+
 main#intro {
   background: url(../img/bg-intro.jpg) no-repeat center center;
   background-size: cover;
@@ -74,6 +81,12 @@ main#intro h1::after {
 main#intro p {
   font-size: 1.125em;
   font-style: italic;
+}
+
+@media only screen and (max-width: 739px) {
+  main#intro {
+    padding: 60px 0;
+  }
 }
 
 section#sobre {
@@ -130,6 +143,31 @@ section#sobre .sobre-container .sobre-item h3 {
   padding: 5px 0 10px 0;
   position: relative;
   top: -25px;
+}
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  section#sobre .sobre-container {
+    max-width: 720px;
+  }
+  section#sobre .sobre-container .sobre-item {
+    max-width: 340px;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  section#sobre {
+    padding: 40px 0;
+  }
+  section#sobre h2 {
+    margin-bottom: 40px;
+  }
+  section#sobre .sobre-container {
+    max-width: 300px;
+  }
+  section#sobre .sobre-container .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
 
 section#produtos {
