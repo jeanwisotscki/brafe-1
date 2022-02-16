@@ -232,7 +232,7 @@ h2.produtos-mineiro::before {
 
 .assine {
   background: #e7e4d8;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .assine-info {
@@ -287,9 +287,16 @@ h2.produtos-mineiro::before {
 
 .footer {
   background: #d6d3c8;
+  padding: 40px 0;
 }
 
 .footer p {
+  flex: 1;
   font-size: 1.125em;
   line-height: 1.4em;
+  margin: 0 10px;
+}
+
+.footer-img {
+  margin: 0 10px;
 }
